@@ -38,14 +38,9 @@ int main(){
 //Step 3 :
 
     /*
-    enum company_name CNAME_XEROX;
-    CNAME_XEROX = XEROX;
-
-    enum company_name CNAME_GOOGLE;
-    CNAME_GOOGLE = GOOGLE;
-
-    enum company_name CNAME_EBAY;
-    CNAME_EBAY = EBAY;
+    enum company_name CNAME_XEROX = XEROX;
+    enum company_name CNAME_GOOGLE = GOOGLE;
+    enum company_name CNAME_EBAY = EBAY;
 
     printf("XEROX : %d\n",CNAME_XEROX);
     printf("GOOGLE : %d\n",CNAME_GOOGLE);
