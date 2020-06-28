@@ -31,6 +31,7 @@
 
 int main(){
 
+    /*
     char char_data;
     int int_data;
     float float_data;
@@ -39,22 +40,22 @@ int main(){
     double double_data;
     long double long_double_data;
 
-   /* 
+   
     printf("Data types Size in bytes \n");
-    printf("char_data : %zd\n",sizeof(char_data));
-    printf("int_data : %zd\n",sizeof(int_data));
-    printf("float_data : %zd\n",sizeof(float_data));
-    printf("long_data : %zd\n",sizeof(long_data));
-    printf("long_long_data : %zd\n",sizeof(long_long_data));
-    printf("double_data : %zd\n",sizeof(double_data));
-    printf("long_double : %zd\n",sizeof(long_double_data));
+    printf("char size : %zd\n",sizeof(char_data));
+    printf("int size : %zd\n",sizeof(int_data));
+    printf("float size : %zd\n",sizeof(float_data));
+    printf("long size : %zd\n",sizeof(long_data));
+    printf("long_long size : %zd\n",sizeof(long_long_data));
+    printf("double size : %zd\n",sizeof(double_data));
+    printf("long size : %zd\n",sizeof(long_double_data));
     */
 
 
   
 //step 6: 
-    printf("Data types Size in byte \nchar_data : %zd\nint_data : %zd\nfloat_data : %zd\nlong_data : %zd\nlong_long_data : %zd\ndouble_data : %zd\nlong_double : %zd\n",
-    sizeof(char_data),sizeof(int_data),sizeof(float_data),sizeof(long_data),sizeof(long_long_data),sizeof(double_data),sizeof(long_double_data));
+    printf("Data types Size in byte \nchar size : %zd\nint size : %zd\nfloat size : %zd\nlong size : %zd\nlong_long size : %zd\ndouble size : %zd\nlong_double size : %zd\n",
+    sizeof(char),sizeof(int),sizeof(float),sizeof(long),sizeof(long long),sizeof(double),sizeof(long double));
 
 
   
