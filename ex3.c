@@ -46,7 +46,7 @@ int main(){
     printf("No. of Years : %lf\n",total_years);
 
     */
-
+//step 6: 
    printf("Enter Minutes : ");
    scanf("%d",&minutes);
    printf("\nMinutes : %d\nNo. of Days : %lf\nNo. of Years : %lf\n",minutes,(((double)minutes)/(60*24)),(((double)minutes)/(60*24*365)));
