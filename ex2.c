@@ -20,6 +20,13 @@
         ->2
         ->0
         ->4 
+
+
+    step 3 : writing code
+    step 4 : compile the program
+    step 5 : Run the program
+    step 6 : Test and Debug
+    step 7 : Maintain and modify the code
 */
 
 #include<stdio.h>
