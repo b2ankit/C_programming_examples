@@ -42,24 +42,26 @@
 // Step 3:
 
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
 int main(){
- int chosen_number,guess_number;
+ int random_number=0,guess_number;
+ srand(time(0)); 
+ random_number = rand()%21;
+ 
     /*
-    printf("Choose a number between 0 to 20 first\n");
-    scanf("%d",&chosen_number);
-    printf("This is a guessing game.\n");
-    printf("I have chosen a number between 0 and 20 which you must guess.\n");
+    printf("This is a guessing game.\nI have chosen a number between 0 and 20 which you must guess.\n");
 
     for(int i=5;i>0;i--){
         printf("You have %d tries left\n",i);
         printf("Enter a guess : ");
         scanf("%d",&guess_number);
-        if(guess_number==chosen_number){
+        if(guess_number==random_number){
             printf("Congratulations. You guessed it!\n");
             break;
         }
-        else if(guess_number>chosen_number){
+        else if(guess_number>random_number){
             printf("Sorry,%d is worng.My number is less than that\n",guess_number);
 
         }
@@ -67,7 +69,7 @@ int main(){
             printf("Sorry,%d is worng.My number is greater than that\n",guess_number);
 
         }
-        if(i==1 && guess_number!=chosen_number){
+        if(i==1 && guess_number!=random_number){
             printf("Sorry. You loss it!\n");
         }
 
@@ -78,22 +80,20 @@ int main(){
 
   
 //step 6: 
-
-    printf("Choose a number between 0 to 20 first\n");
-    scanf("%d",&chosen_number);
+    
     printf("This is a guessing game.\nI have chosen a number between 0 and 20 which you must guess.\n");
     for(int i=5;i>0;i--){
         printf("You have %d tries left\nEnter a guess : ",i);
         scanf("%d",&guess_number);
-        if(guess_number==chosen_number){
+        if(guess_number==random_number){
             printf("Congratulations. You guessed it!\n");
             break;
         }  
-        else if(guess_number>chosen_number)
+        else if(guess_number>random_number)
             printf("Sorry,%d is worng.My number is less than that\n",guess_number);
         else
              printf("Sorry,%d is worng.My number is greater than that\n",guess_number);
-        if(i==1 && guess_number!=chosen_number)
+        if(i==1 && guess_number!=random_number)
             printf("Sorry. You loss it!\n");
     }
     return 0;
