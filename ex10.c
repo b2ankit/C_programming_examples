@@ -41,6 +41,7 @@ int main(){
     int n;
     printf("input number of string : ");
     scanf("%d",&n);
+    
     printf("\n***************************************\n");
     for(int i=0;i<n;i++){
         printf("input string %d : ",i+1);
