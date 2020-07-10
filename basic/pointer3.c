@@ -19,7 +19,7 @@ int main(){
     printf("Modified value of x using pointer : %d\n",*pointer_num);
 
     /* when we using const before pointer we can't modifer the value of 
-    variable using pointer*/
+    variable where the pointer is point*/
 
     // *constant_pointer_num=300;
     //  printf("Modified value of x using pointer : %d\n",*constant_pointer_num);
