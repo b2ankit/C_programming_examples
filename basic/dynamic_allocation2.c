@@ -29,9 +29,8 @@ int main(){
         }
         strcat(str,extend_string);
     }
-    
-
-
     printf("your enter String is : %s\n",str);
+    if(str)
+        free(str);
     return 0;
 }

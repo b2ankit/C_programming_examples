@@ -25,5 +25,7 @@ int main(){
         printf(" %d\t",*(dynamic_pointer+i));
     }
     printf("\n");
+    if(dynamic_pointer)
+        free(dynamic_pointer);
     return 0;
 }
