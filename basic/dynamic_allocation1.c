@@ -9,6 +9,10 @@ int main(){
     scanf("%d",&n);
     int *dynamic_pointer = NULL;
     dynamic_pointer = (int *)malloc(n*sizeof(int));
+    if(!dynamic_pointer){
+        printf("Memory allocation is failed\n");
+        return -1;
+    }
     printf("Enter the integer value\n");
     for(int i=0;i<n;i++){
         int value;
