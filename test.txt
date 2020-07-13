@@ -1,4 +1,4 @@
-Hello World
-I am test.txt file
-Hello World
-I am test.txt file
+HELLO WORLD
+I AM TEST.TXT FILE
+HELLO WORLD
+I AM TEXT FILE
